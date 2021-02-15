@@ -1,0 +1,172 @@
+body{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.container{
+    background-color: whitesmoke;
+    border-radius: 5px;
+    box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+    border-width: 5px;
+    max-width: 750px;
+
+}
+.content-info{
+    justify-content: left;
+    margin-top: auto;
+}
+.row-contact{
+    margin-top: 5px;
+}
+.content-title{
+    margin-top: 5px;
+}
+.titre{
+    margin: 5px 5px 5px 5px;
+}
+h7{
+    margin-left: 5px;
+    margin-top: 5px;
+    padding-left: 5px;
+    font-size: large;
+}
+h8{
+    margin-left: 5px;
+    margin-top: 5px;
+    padding-left: 5px;
+}
+h10{
+    margin-left: 5px;
+    margin-top: 5px;
+    padding-left: 5px;
+}
+
+  /* Profile Image Style */
+  @-webkit-keyframes pulsate {
+    0% {
+      -webkit-transform: scale(0.6, 0.6);
+              transform: scale(0.6, 0.6);
+      opacity: 0.0;
+    }
+    50% {
+      opacity: 1.0;
+    }
+    100% {
+      -webkit-transform: scale(1, 1);
+              transform: scale(1, 1);
+      opacity: 0.0;
+    }
+  }
+  @keyframes pulsate {
+    0% {
+      -webkit-transform: scale(0.6, 0.6);
+              transform: scale(0.6, 0.6);
+      opacity: 0.0;
+    }
+    50% {
+      opacity: 1.0;
+    }
+    100% {
+      -webkit-transform: scale(1, 1);
+              transform: scale(1, 1);
+      opacity: 0.0;
+    }
+  }
+
+#image-fluid{
+    position: relative;
+    margin: 5px 5px 5px 5px;
+    padding: 1px 1px 1px 1px;
+    width: 100px;
+    height: 128px;
+    box-shadow: 0px 15px 25px 0px rgba(0, 0, 0, 0.2);
+    float: left;
+    transition: all .3s ease-out;
+}
+#image-fluid:hover{
+    -webkit-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+}
+a{
+    text-decoration: none
+}
+.image-fluid{
+    width: 20px;
+    height: 20px;
+}
+.list-inline-item{
+    width: 30px;
+    text-align: center;
+    font-size: xx-large;
+}
+.fa-html5{
+    color: #e34f26;
+}
+.fa-css3-alt{
+    color: #002561;
+}
+.fa-js-square{
+    color: #d3c451;
+}
+.fa-php{
+    color: #4f5b93;
+}
+.fa-python{
+    color: #4584b6;
+}
+.fa-angular{
+    color: #b52e31;
+}
+.fa-react{
+    color: #00d8ff;
+}
+.fa-bootstrap{
+    color: #8856e6;
+}
+.fa-laravel{
+    color: #F05340;
+}
+.fa-wordpress{
+    color: #AFCA4D;
+}
+.fa-joomla{
+    color: cornflowerblue;
+}
+
+.fa-user{
+    color: #b52e31;
+}
+.fa-briefcase{
+    color: darkblue;
+}
+.fa-user-graduate{
+    color: darkblue;
+}
+.fa-street-view{
+    color: darkgreen;
+}
+
+.card-title{
+    font-size: small;
+}
+.card-awards{
+    font-size: small;
+}
+.progress{
+    width: 282px;
+    height: 29px;
+}
+.progress-bar-striped {
+    text-align: center;
+    transition-duration: 4s;
+    color: beige;
+    font-weight: 400;
+  }
+.footer-content{
+    background-color: silver;
+    color: black;
+    text-align: center;
+    font-size: smaller;
+    margin-top: 5px;
+}
+.langue{
+    margin-left: 8px;
+}
