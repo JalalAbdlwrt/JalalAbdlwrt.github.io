@@ -3,6 +3,7 @@
 let arabic = document.getElementById("arabic");
 let english = document.getElementById("english");
 let french = document.getElementById("french");
+let spanich = document.getElementById("spanish");
 
 //declaration variables infos
 let text = document.getElementById("text");
@@ -77,6 +78,10 @@ french.onclick = () =>{
 };
 english.onclick = () =>{
     setLang("english");
+    //localStorage.setItem("Lang","english");
+};
+spanich.onclick = () =>{
+    setLang("spanish");
     //localStorage.setItem("Lang","english");
 };
 /*
@@ -168,7 +173,7 @@ function setLang(getLang) {
         bac.innerHTML = "BACCALAUREATE";
         bacAd.innerHTML = "HIGH SCHOOL HASSAN II – TETOUAN, MOROCCO";
         bacP.innerHTML = "Baccalaureate from Hassan II high school in Tetouan, <b>Experimental Sciences</b> series.";
-        prof.innerHTML = "PROFESSIONNAL EXPERIENCES";
+        prof.innerHTML = "PROFESSIONAL EXPERIENCES";
         adm.innerHTML = "ADMINISTRATIVE AND FINANCIAL ASSISTANT";
         admT.innerHTML = "IBDAA DECOR – TETOUAN, MOROCCO";
         admP.innerHTML = "One-year experience as an administrative and financial assistant, within the company IBDAA DECOR in Tetouan, Morocco.";
@@ -258,5 +263,57 @@ function setLang(getLang) {
                             Certificat de participation au tournoi de football, 2ndPlace - Université ABDELMALEK ESSAADI`;
         footer.innerHTML = "Créé par A.J || Société Tous droits réservés 2021 &copy";
 
+    } else if (getLang === "spanish") {
+        text.innerHTML = "desarrollador de software junior";
+        study.innerHTML = "Maestría en gestión de TI";
+        name.innerHTML = "AOULAD ABDELOUARIT JALAL";
+        adress.innerHTML = "Avenida Alismailia Boussafou-Tetouan";
+        contact.innerHTML = "Mis contactos";
+        backg.innerHTML = "CURSO ACADÉMICO";
+        master.innerHTML = "MAESTRO ESPECIALIZADO";
+        masterAd.innerHTML = "FSJES – TETOUAN, MARRUECOS";
+        masterP.innerHTML = "Máestro especializado <b> (Gestión informática de empresas) </b> en la Facultad de Ciencias Jurídicas, Económicas y Sociales de Tetuán. Grado Bastante bien.";
+        lic.innerHTML = "ESTUDIOS FUNDAMENTALES DE LICENCIADA";
+        licAd.innerHTML = "FSJES – TETOUAN, MARRUECOS"; 
+        licP.innerHTML = "Licenciada en Estudios Fundamentales por la Facultad de Ciencias Jurídicas, Económicas y Sociales de Tetuán, <b> rama Economía y Gestión </b>.";
+        bac.innerHTML = "BACHILLERATO";
+        bacAd.innerHTML = "ESCUELA SECUNDARIA HASSAN II – TETOUAN, MARRUECOS";
+        bacP.innerHTML = "Bachillerato del instituto Hassan II de Tetuán, ciclo <b> Ciencias Experimentales </b>.";
+        prof.innerHTML = "EXPERIENCIAS PROFESIONALES";
+        adm.innerHTML = "ASISTENTE ADMINISTRATIVO Y FINANCIERO";
+        admT.innerHTML = "IBDAA DECOR – TETOUAN, MARRUECOS";
+        admP.innerHTML = "Experiencia de un año como asistente administrativo y financiero, dentro de la empresa IBDAA DECOR en Tetuán, Marruecos.";
+        cust.innerHTML = "Asesor de servicio al cliente";
+        custT.innerHTML = "ARRAWAJ COMPANY – TETOUAN, MARRUECOS";
+        custP.innerHTML = "Experiencia de un año como asesor de atención al cliente, dentro de la empresa ARRAWAJ en Tetuán, Marruecos.";
+        inter.innerHTML = "PRÁCTICAS AL FINAL DE MI ESCUELA";
+        interT.innerHTML = "TMPA – TANGER, MARRUECOS";
+        interP.innerHTML = "Prácticas fin de estudios en la empresa Tanger Med Port Authority (TMPA) de Tánger durante 4 meses.";
+        skt.innerHTML = "HABILIDADES Y HERRAMIENTAS";
+        sktP.innerHTML = "Lenguajes de programación";
+        sktF.innerHTML = "Frameworks";
+        workF.innerHTML = "Flujo de trabajo";
+        workOne.innerHTML = "<span class = 'fa-li'> <i class = 'fas fa-check'> </i> </span> Realización de un proyecto de fin de estudios en forma de Panel de Recursos Humanos para el departamento de recursos humanos de AUTORIDAD DEL PUERTO TANGER MED: (Microsoft Excel 2010-2013).";
+        workTwo.innerHTML = "<span class = 'fa-li'> <i class = 'fas fa-check'> </i> </span> Realización de un proyecto utilizando un estudio de análisis de diseño MERISE y un Sistema de Gestión de Base de Datos (DBMS) dentro de la empresa RENAULT en Tetuán. (Access 2010 y Base de datos SQL).";
+        workThree.innerHTML = "<span class = 'fa-li'> <i class = 'fas fa-check'> </i> </span> Realización de un sitio web en forma de página web de mi CV personal usando (HTML5, CSS3, JS, BOOTSTRAP 4).";
+        lang.innerHTML = "IDIOMAS";
+        langAr.innerHTML = "Arábica";
+        langFr.innerHTML = "Francés";
+        langEn.innerHTML = "Inglés";
+        langSp.innerHTML = "Español";
+        award.innerHTML = "PREMIOS Y CERTIFICADOS";
+        awardC.innerHTML = `<i class = "fas fa-trophy text-warning"> </i>
+                            Certificado de curso en línea "Curso completo para desarrolladores de Python" - Certificado de Udemy
+                            <br> <i class = "fas fa-trophy text-warning"> </i>
+                            Certificado de curso en línea "Curso completo de React JS - Básico a avanzado" - Certificado Udemy
+                            <br> <i class = "fas fa-trophy text-warning"> </i>
+                            Certificado de curso en línea "HTML, CSS y Javascript para desarrolladores web" - Certificado de Coursera
+                            <br> <i class = "fas fa-trophy text-warning"> </i>
+                            Certificado de curso en línea "Frameworks JavaScript Front-End: Angular" - Certificado de Coursera
+                            <br> <i class = "fas fa-trophy text-warning"> </i>
+                            Certificado de participación en el torneo de ajedrez, 4 <sup> th </sup> Lugar - Universidad ABDELMALEK ESSAADI
+                            <br> <i class = "fas fa-trophy text-warning"> </i>
+                            Certificado de participación en el torneo de fútbol, ​​2 <sup> nd </sup> Lugar - Universidad ABDELMALEK ESSAADI`;
+        footer.innerHTML = "Creado por A.J || Compañía Todos los derechos reservados 2021 y copia";
     }
 }
