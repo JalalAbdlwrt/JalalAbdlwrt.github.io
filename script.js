@@ -3,7 +3,7 @@
 let arabic = document.getElementById("arabic");
 let english = document.getElementById("english");
 let french = document.getElementById("french");
-let spanich = document.getElementById("spanish");
+let spanish = document.getElementById("spanish");
 
 //declaration variables infos
 let text = document.getElementById("text");
@@ -80,7 +80,7 @@ english.onclick = () =>{
     setLang("english");
     //localStorage.setItem("Lang","english");
 };
-spanich.onclick = () =>{
+spanish.onclick = () =>{
     setLang("spanish");
     //localStorage.setItem("Lang","english");
 };
