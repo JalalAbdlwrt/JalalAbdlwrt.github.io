@@ -314,6 +314,6 @@ function setLang(getLang) {
                             Certificado de participación en el torneo de ajedrez, 4 <sup> th </sup> Lugar - Universidad ABDELMALEK ESSAADI
                             <br> <i class = "fas fa-trophy text-warning"> </i>
                             Certificado de participación en el torneo de fútbol, ​​2 <sup> nd </sup> Lugar - Universidad ABDELMALEK ESSAADI`;
-        footer.innerHTML = "Creado por A.J || Compañía Todos los derechos reservados 2021 y copia";
+        footer.innerHTML = "Creado por A.J || Compañía Todos los derechos reservados 2021 &copy";
     }
 }
